@@ -30,7 +30,7 @@ class Thought
       'para evitar',
       'para no contaminarme de',
       'para cuidarme de',
-      'para no cae en'
+      'para no caer en'
     ],
     [
       'emociones tóxicas',

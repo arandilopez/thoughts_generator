@@ -1,4 +1,6 @@
 <h1 class="comment display-4 mt-5"><%= @comment %></h1>
-<p class="mx-auto">
-  <%= link_to "Nueva frase", root_path, class: "btn btn-outline-primary" %>
+<p class="buttons">
+  <%= link_to fa_icon("refresh", text: "Nueva frase"), root_path, class: "btn btn-outline-success" %>
+  <%= link_to fa_icon("facebook", text: "Compartir en Facebook"), "#", class: "btn btn-outline-primary" %>
+  <%= link_to fa_icon("twitter", text: "Compartir en Twitter"), "#", class: "btn btn-outline-info" %>
 </p>
